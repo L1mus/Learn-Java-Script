@@ -1,0 +1,89 @@
+for 
+var i = 0 i++
+var j = i+1  j++
+
+iterasi 1 i = 0
+ b = *
+iterasi 2 i = 0 j = 1
+b = **
+iterasi 3 i = 0 j = 2
+b= ***
+iterasi 4 i = 0 j = 3
+b= ****
+iterasi 5 i = 0 j = 4
+b= *****
+iterasi 6 i = 0 j = 5 < 5 false
+b=*****/n
+iterasi 7 i = 1
+b =*****/n *
+iterasi 8 i = 1 j = 2
+b = *****/n **
+iterasi 9 i = 1 j = 3
+b= *****/n ***
+iterasi 10 i = 1 j = 4
+b= *****/n ****
+iterasi 11 i = 1 j = 5 < 5 False
+b= *****/n ****\n
+.
+.
+.
+.
+dan seterusnya
+iterasi  20 i=4 j = 5
+b= *****/n ****\n ***\n **\n *n\
+iterasi  21 i=5 j = 6
+stop looping
+
+========================================
+
+for
+i = 0 i++
+j = i j--
+
+
+itersi 1 i = 0
+b = *
+itersi 2 i = 0 j=0 > 0 False
+b = *\n
+iterasi 3 i = 1 
+b = *\n *
+iterasi 4 i = 1 j= 1 > 0 True
+b = *\n **
+iterasi 5 i = 1 j= 0 > 0 False
+b = *\n **\n
+iterasi 6 i = 2
+b = *\n **\n *
+iterasi 7 i = 2 j= 2 > 0 True
+b = *\n **\n ** 
+iterasi 8 i = 2 j= 1 > 0 True
+b = *\n **\n ***
+iterasi 9 i = 2 j= 0 > 0 False
+b = *\n **\n ***\n
+.
+.
+.
+. 
+iterasi 19 i = 4 j= 0 > 0 False
+b = *\n **\n ***\n ****\n *****
+iterasi 20 b = i = 5 < 5 False
+stop looping
+
+
+==========================================
+
+iterasi 1 i = 0
+b =*
+iterasi 2 i = 0  j= 0
+b =**
+.
+.
+.
+iterasi 11 i=0 j=11
+b=**********\n
+iterasi 12 i=1
+b=**********\n 
+
+
+========================
+iterasi 1 i = 0
+
