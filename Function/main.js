@@ -1,3 +1,50 @@
+// function namaFungsi(parameter1, parameter2) {
+//   // Blok kode yang akan dieksekusi
+//   // Di sini Anda bisa menggunakan parameter
+//   return hasil; // Mengembalikan nilai (opsional)
+// }
+
+// Fungsi tanpa parameter dan tanpa return
+// function sapa() {
+//   console.log("Halo, selamat datang!");
+// }
+
+// sapa(); // Memanggil fungsi
+
+// // Fungsi dengan parameter
+// function sapaNama(nama) {
+//   console.log("Halo, " + nama + "!");
+// }
+
+// sapaNama("Budi"); // Output: Halo, Budi!
+
+// // Fungsi dengan parameter dan return
+// function tambah(angka1, angka2) {
+//   return angka1 + angka2;
+// }
+
+// let hasil = tambah(5, 3);
+// console.log(hasil); // Output: 8
+
+// function rataRata(nilai1, nilai2, nilai3) {
+//   let nilaiRataRata;
+//   nilaiRataRata = (nilai1 + nilai2 + nilai3) / 3;
+
+//   return nilaiRataRata;
+// }
+
+// hasilRataRata = rataRata(70, 80, 90);
+// console.log(hasilRataRata);
+
+// function cekGenapGanjil(angka) {
+//   if (angka % 2 === 0) {
+//     console.log("Angka Genap");
+//   } else {
+//     console.log("Angka Ganjil");
+//   }
+// }
+// cekGenapGanjil(10);
+
 // function jumlahDuaVolumeKubus(a, b) {
 //   var volumeA;
 //   var volumeB;
@@ -101,3 +148,105 @@
 // SEBAGAI CLOUSURE
 // SEBAGAI ARGUMENT UNTUK FUNGSI LAIN
 // IIFE(Immmediately Invoke Function Exspression)
+
+// ES6(ECMAScript 2015);
+// ARROW function
+
+// const sapa = () => {
+//   console.log("Halo, selamat datang!");
+// };
+
+// // Cara biasa
+// const sapaNama = function (nama) {
+//   console.log("Halo, " + nama + "!");
+// };
+
+// // Arrow Function
+// const sapaNama = (nama) => {
+//   console.log("Halo, " + nama + "!");
+// };
+
+// // Sintaks yang lebih ringkas (tanpa tanda kurung)
+// const sapaNama = (nama) => {
+//   console.log("Halo, " + nama + "!");
+// };
+
+// Dua Parameter atau Lebih: Tanda kurung () harus tetap digunakan.
+// const tambah = (angka1, angka2) => {
+//   return angka1 + angka2;
+// };
+
+// // Cara biasa
+// const tambah = (angka1, angka2) => {
+//   return angka1 + angka2;
+// };
+
+// // Arrow Function dengan return implisit
+// const tambahSingkat = (angka1, angka2) => angka1 + angka2;
+
+// const rataRata = (nilai1, nilai2, nilai3) => {
+//   let nilaiRataRata = (nilai1 + nilai2 + nilai3) / 3;
+//   return nilaiRataRata;
+// };
+// // Refactoring
+// const rataRata = (nilai1, nilai2, nilai3) => {
+//   const nilaiRataRata = (nilai1 + nilai2 + nilai3) / 3;
+//   return nilaiRataRata;
+// };
+// // Refactoring
+// const rataRata = (nilai1, nilai2, nilai3) => (nilai1 + nilai2 + nilai3) / 3;
+
+// hasilRataRata = rataRata(70, 80, 90);
+// console.log(hasilRataRata);
+
+// const perkalian = (x, y) => x * y;
+
+// const cekAngka = (angka) => (angka > 10 ? true : false);
+
+// hasil = perkalian(20, 30);
+// hasil2 = cekAngka(11);
+
+// console.log(hasil, hasil2);
+
+// Function Multiple Return Values dengan Array
+// function hitungData(a, b) {
+//   const penjumlahan = a + b;
+//   const perkalian = a * b;
+//   const pembagian = a / b;
+
+//   // Mengembalikan semua hasil dalam satu array
+//   return [penjumlahan, perkalian, pembagian];
+// }
+
+// const hasil = hitungData(10, 2); // hasil akan berisi [12, 20, 5]
+
+// console.log(hasil[0]); // Mengambil hasil penjumlahan: 12
+// console.log(hasil[1]); // Mengambil hasil perkalian: 20
+// console.log(hasil[2]); // Mengambil hasil pembagian: 5
+
+// // menggunakan destructuring assignment
+// const [sum, product, division] = hitungData(10, 2);
+
+// console.log(`Penjumlahan: ${sum}`);
+// console.log(`Perkalian: ${product}`);
+// console.log(`Pembagian: ${division}`);
+
+// // Function Multiple Return Values dengan Object
+// function hitungDataLengkap(a, b) {
+//   const penjumlahan = a + b;
+//   const perkalian = a * b;
+//   const pembagian = a / b;
+
+//   // Mengembalikan semua hasil dalam satu object
+//   return {
+//     jumlah: penjumlahan,
+//     kali: perkalian,
+//     bagi: pembagian,
+//   };
+// }
+
+// const hasilLengkap = hitungDataLengkap(10, 2);
+
+// console.log(hasilLengkap.jumlah); // Mengambil nilai dengan nama properti: 12
+// console.log(hasilLengkap.kali); // Mengambil nilai dengan nama properti: 20
+// console.log(hasilLengkap.bagi); // Mengambil nilai dengan nama properti: 5

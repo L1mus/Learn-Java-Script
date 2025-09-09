@@ -12,6 +12,19 @@
 //   item.addEventListener("click", toggleDone);
 // });
 
+// const angka = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// console.log("\nMencetak angka genap:");
+// for (let i = 1; i < angka.length; i += 2) {
+//   console.log(angka[i]);
+// }
+// Output:
+// 2
+// 4
+// 6
+// 8
+// 10
+
 // var jmlAngkot = 10;
 // var angkotBeroprasi = 6;
 // var angkotLembur = 3;
@@ -75,7 +88,7 @@
 //     console.log("ini Minuman anda");
 // }
 
-var bintang = "";
+// var bintang = "";
 
 // for (var i = 0; i < 5; i++) {
 //   bintang += "*";
